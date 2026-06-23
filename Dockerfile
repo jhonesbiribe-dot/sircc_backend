@@ -1,5 +1,5 @@
 # Usa la imagen oficial de Eclipse Temurin (OpenJDK) desde Docker Hub
-FROM amazoncorretto:17-alpine
+FROM openjdk:17-slim-bullseye
 
 # Establece el directorio de trabajo
 WORKDIR /app
